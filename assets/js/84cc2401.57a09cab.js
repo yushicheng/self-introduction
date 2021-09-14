@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkself_introduction=self.webpackChunkself_introduction||[]).push([[856],{5787:function(s){s.exports=JSON.parse('{"allTagsPath":"https://yushicheng.github.io/self-introduction/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"https://yushicheng.github.io/self-introduction/blog/tags/docusaurus"}')}}]);

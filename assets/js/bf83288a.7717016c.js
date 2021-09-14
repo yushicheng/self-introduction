@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkself_introduction=self.webpackChunkself_introduction||[]).push([[729],{241:function(e){e.exports=JSON.parse('{"permalink":"https://yushicheng.github.io/self-introduction/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
