@@ -8,8 +8,8 @@ module.exports = {
   tagline: "像对待情人一样对待项目,像创造生命一样创造生态",
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
-  baseUrl: "/",
-  url: "https://your-docusaurus-test-site.com",
+  baseUrl: "/self-introduction/",
+  url: "https://yushicheng.github.io/",
   favicon: "img/favicon.ico",
   organizationName: "facebook", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.

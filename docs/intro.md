@@ -7,9 +7,9 @@ sidebar_position: 1
 <h2 align="center">前端开发工程师-俞士成</h2>
 
 <div align="center">
-  <img hspace="10" width="120" src="../static/photos/WechatIMG2.jpeg"/>
-  <img hspace="10" width="120" src="../static/photos/WechatIMG4.jpeg"/>
-  <img hspace="10" width="120" src="../static/photos/WechatIMG5.jpeg"/>
+  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/photos/WechatIMG2.jpeg"/>
+  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/photos/WechatIMG4.jpeg"/>
+  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/photos/WechatIMG5.jpeg"/>
 </div>
 
 <div align="center">
@@ -29,12 +29,12 @@ sidebar_position: 1
 - 使用docker进行项目的集成交付;
 
 <div align="center">
-  <img hspace="10" width="120" src="../static/logos/20171113192033_1230.png"/>
-  <img hspace="10" width="120" src="../static/logos/1477618837-4668.jpg"/>
-  <img hspace="10" width="120" src="../static/logos/TB1zomHwxv1gK0jSZFFXXb0sXXa-200-200.png"/>
-  <img hspace="10" width="120" src="../static/logos/79596653-38f81200-80e1-11ea-98cd-1c6a3bb5de51.png"/>
-  <img hspace="10" width="120" src="../static/logos/JFKAMfmPehWfhBPdCjrw.svg"/>
-  <img hspace="10" width="120" src="../static/logos/docker.png"/>
+  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/logos/20171113192033_1230.png"/>
+  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/logos/1477618837-4668.jpg"/>
+  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/logos/TB1zomHwxv1gK0jSZFFXXb0sXXa-200-200.png"/>
+  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/logos/79596653-38f81200-80e1-11ea-98cd-1c6a3bb5de51.png"/>
+  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/logos/JFKAMfmPehWfhBPdCjrw.svg"/>
+  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/logos/docker.png"/>
 </div>
 
 
