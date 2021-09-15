@@ -7,7 +7,7 @@ sidebar_position: 1
 <h2 align="center">前端开发工程师-俞士成</h2>
 
 <div align="center">
-  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/photos/qrcode_yushicheng.github.io.png"/>
+  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/photos/qrcode.png"/>
   <span>更多详情请扫码查看网页版</span>
 </div>
 
