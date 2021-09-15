@@ -7,6 +7,7 @@
     "docusaurus": "docusaurus",
     "dev": "docusaurus start",
     "build": "docusaurus build && gh-pages -d build",
+    "combo": "node ./scripts/combo.js",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -39,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "glob": "^7.1.7"
   }
 }
