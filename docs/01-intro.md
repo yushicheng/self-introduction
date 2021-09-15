@@ -8,7 +8,7 @@ sidebar_position: 1
 
 <div align="center">
   <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/photos/qrcode.png"/>
-  <span>更多详情请扫码查看网页版</span>
+  <div>更多详情请扫码查看网页版</div>
 </div>
 
 <div align="center">
