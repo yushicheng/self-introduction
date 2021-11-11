@@ -7,14 +7,14 @@ sidebar_position: 1
 <h2 align="center">前端开发工程师-俞士成</h2>
 
 <div align="center">
-  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/photos/qrcode.png"/>
+  <img hspace="10" width="120" src={require("@site/static/photos/qrcode.png").default}/>
   <div>更多详情请扫码查看网页版</div>
 </div>
 
 <div align="center">
-  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/photos/WechatIMG2.jpeg"/>
-  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/photos/WechatIMG4.jpeg"/>
-  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/photos/WechatIMG5.jpeg"/>
+  <img hspace="10" width="120" src={require("@site/static/photos/WechatIMG2.jpeg").default}/>
+  <img hspace="10" width="120" src={require("@site/static/photos/WechatIMG4.jpeg").default}/>
+  <img hspace="10" width="120" src={require("@site/static/photos/WechatIMG5.jpeg").default}/>
 </div>
 
 <div align="center">
@@ -34,12 +34,12 @@ sidebar_position: 1
 - 使用docker进行项目的集成交付;
 
 <div align="center">
-  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/logos/20171113192033_1230.png"/>
-  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/logos/1477618837-4668.jpg"/>
-  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/logos/TB1zomHwxv1gK0jSZFFXXb0sXXa-200-200.png"/>
-  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/logos/79596653-38f81200-80e1-11ea-98cd-1c6a3bb5de51.png"/>
-  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/logos/JFKAMfmPehWfhBPdCjrw.svg"/>
-  <img hspace="10" width="120" src="https://yushicheng.github.io/self-introduction/logos/docker.png"/>
+  <img hspace="10" width="120" src={require("@site/static/logos/20171113192033_1230.png").default}/>
+  <img hspace="10" width="120" src={require("@site/static/logos/1477618837-4668.jpg").default}/>
+  <img hspace="10" width="120" src={require("@site/static/logos/TB1zomHwxv1gK0jSZFFXXb0sXXa-200-200.png").default}/>
+  <img hspace="10" width="120" src={require("@site/static/logos/79596653-38f81200-80e1-11ea-98cd-1c6a3bb5de51.png").default}/>
+  <img hspace="10" width="120" src={require("@site/static/logos/JFKAMfmPehWfhBPdCjrw.png").default}/>
+  <img hspace="10" width="120" src={require("@site/static/logos/docker.png").default}/>
 </div>
 
 
@@ -56,7 +56,7 @@ sidebar_position: 1
 我是一个使用nodejs的全栈开发者早期从事过ui设计和web前端开发,在项目组中我比较擅长构建技术生态,致力于实现规范化,系统化,插件化,自动化,从而在团队中打造一定的影响力,早期的从业经验告诉我,一个项目的成功与否不仅仅是由项目的参与者决定的,需要有完善的开发生态,这些生态包括了 `npm包生态`, `cli工具链生态` 以及 `组件库` 和 `可视化开发工具` ,只有在开发的过程中完善好这些工具及周边生态,开发项目时的条条框框和细节才可以得到规范,并且保证了在项目人员流转的同时开发经验也可以得到集成,也就是说,有了这些生态节点,项目的成功是可以被复刻的,同时项目也是可以被继承的,所以我在团队中的定位就是项目生态的打造者和领导者,是一个类似于园丁的角色.
 
 <div align="center">
-  <img hspace="10" width="300" src="https://yushicheng.github.io/self-introduction/photos/IMG_3708.jpg"/>
+  <img hspace="10" width="300" src={require("@site/static/photos/IMG_3708.jpg").default}/>
 </div>
 # 金涛珠宝-项目经历
 
@@ -184,4 +184,4 @@ npm包生态是用lerna进行管理的,在开发完的时候统一通过lerna pu
 | 北京理工大学         | 非.全日制 | 本科 | 计算机应用技术 | 2016-09~2019-07 |
 
 ## 学信网截图
-![学信网网页截图](../static/photos/xuexinwang.png)
+<img src={require("@site/static/photos/xuexinwang.png").default}/>

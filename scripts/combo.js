@@ -3,7 +3,7 @@ const path=require("path");
 const glob=require("glob");
 const {promisify}=require("util");
 
-const match_files_path=path.resolve(__dirname,"../docs/**/*.md");
+const match_files_path=path.resolve(__dirname,"../docs/**/*.{md,mdx}");
 const write_file_path=path.resolve(__dirname,"../scripts/combo.md");
 
 (async ()=>{
