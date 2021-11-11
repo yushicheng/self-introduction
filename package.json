@@ -6,6 +6,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "dev": "docusaurus start",
+    "pdf": "mr-pdf --outputPDFFilename=./static/个人简历.pdf --pdfMargin=20 --excludeSelectors=\"footer\" --paginationSelector=\".pagination-nav__item--next > a\" --initialDocsURL=\"https://yushicheng.github.io/self-introduction/docs/intro/\"",
     "build": "docusaurus build && gh-pages -d build",
     "combo": "node ./scripts/combo.js",
     "swizzle": "docusaurus swizzle",
@@ -40,7 +41,10 @@
     ]
   },
   "devDependencies": {
+    "@ilovepdf/ilovepdf-nodejs": "^0.1.1",
+    "docusaurus-prince-pdf": "^1.0.6",
     "gh-pages": "^3.2.3",
-    "glob": "^7.1.7"
+    "glob": "^7.1.7",
+    "mr-pdf": "^0.2.3"
   }
 }
