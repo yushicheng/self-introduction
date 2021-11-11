@@ -1,6 +1,5 @@
 import React from "react";
-import qr_code_image from "../../static/photos/IMG_3709.jpg";
-
+import qr_code_image from "@site/static/photos/IMG_3709.jpg";
 
 export default function HomepageFeatures() {
   return (
