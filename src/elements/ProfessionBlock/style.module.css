@@ -1,0 +1,10 @@
+
+.profession_block {
+  color:#ffffff;
+  overflow:hidden;
+  margin:0px 10px;
+  padding:30px 50px;
+  border-radius:10px;
+  display:inline-block;
+  background-color: #888888;
+}

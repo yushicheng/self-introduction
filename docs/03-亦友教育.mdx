@@ -1,28 +1,32 @@
-# 亦友教育-项目经历
+# 亦友教育2020-12~2021-09
 
-> #### [亦友教育](https://yi-you.org/)
+[亦友教育](https://yi-you.org/)是一款为初高中学生精心打造的在线学习应用软件。
+学生可以通过APP查看课表与教学计划，进入课堂，并回放历史课程，实现随时随地，线上学习。
 
-- **工作时间：**2020-12~2021-09
-- **核心技术栈：**`umi.js` `egg.js` `redis` `lerna` `gulp` `docusaurus` `electron`
-- **主要职责：**以全栈工程师的身份开发亦友教育的白板项目,使用lerna和yarn打造白板项目生态,使用koa;eggjs和docker构筑和部署微服务,使用electron开发客户端
+:::info 核心技术栈
+`umi.js` `egg.js` `redis` `lerna` `gulp` `docusaurus` `electron`
+:::
 
-- [白板主项目请点击这里查看](http://git.yiyoujiaoyu.com.cn/node-group/yiyou-write-borad/-/blob/master/README.md)
-- [白板客户端项目请点击这里查看](http://git.yiyoujiaoyu.com.cn/node-group/yiyou-pano-electron/-/blob/master/README.md)
-- [我在亦友教育的其他工作内容](https://yiyou-education.github.io/white-board-docs-website/)
+## 主要职责
 
-> #### 项目心得简述
+以全栈工程师的身份开发亦友教育的白板项目,使用lerna和yarn打造白板项目生态,  
+使用koa;eggjs和docker构筑和部署微服务,使用electron开发客户端
 
-在最近这份工作中,开发生态这个概念也得到了一个好的验证和反馈,
-由于公司项目是基于[拍乐云第三方技术服务](https://www.pano.video/)进行开发的,涉及到跨项目组的交流和协作虽然前期的开发由我完成但后期的维护并不止我一个人,所以保持开发程序在不同项目组中的一致性这个问题就变的格外的重要.
+## 项目心得
+
+在最近这份工作中,开发生态这个概念也得到了一个好的验证和反馈,  
+由于公司项目是基于[拍乐云第三方技术服务](https://www.pano.video/)进行开发的,  
+涉及到跨项目组的交流和协作虽然前期的开发由我完成但后期的维护并不止我一个人,  
+所以保持开发程序在不同项目组中的一致性这个问题就变的格外的重要.  
 
 项目开发和协作过程中保持一致性的关键点如下
 
-- cli工具链生态
-- npm包生态
+- CLI工具链生态
+- Npm包生态
 - 组件库生态
 - 子应用模块生态
 
-#### cli工具链
+### CLI工具链
 
 > 辅助开发的命令行工具保证了开发中操作的一致性
 
@@ -33,7 +37,7 @@
 | [@yiyou/class-action](http://git.yiyoujiaoyu.com.cn/tool-group/class-action) | 在运行开发命令之前进行排课,并且将课堂信息以json形式生成到当前目录下 |
 | [@yiyou/deploy-action](http://git.yiyoujiaoyu.com.cn/yiyou-basic/deploy-action) | 用于部署的命令行工具,基于阿里云OSS开发,用于部署编译打包后的静态资源 |
 
-#### npm包生态
+### Npm包生态
 
 > 保证多个白板项目之间函数功能的一致性
 
@@ -50,3 +54,9 @@ npm包生态是用lerna进行管理的,在开发完的时候统一通过lerna pu
 > 提供插件式的子应用,保证子应用之间功能的一致性
 
 子应用生态同样也是通过lerna进行管理的,在开发完的时候统一通过lerna publish命令发布到[亦友私有npm镜像源](http://npm.yi-you.org/),子应用没有相互的依赖关系,但可以像组件库那样进行单独开发和维护,详细的包生态请[查看这里](http://git.yiyoujiaoyu.com.cn/node-group/yiyou-write-borad/-/tree/master/packages/floatlayers)
+
+:::info 相关资料
+- [白板主项目请点击这里查看](http://git.yiyoujiaoyu.com.cn/node-group/yiyou-write-borad/-/blob/master/README.md)
+- [白板客户端项目请点击这里查看](http://git.yiyoujiaoyu.com.cn/node-group/yiyou-pano-electron/-/blob/master/README.md)
+- [我在亦友教育的其他工作内容](https://yiyou-education.github.io/white-board-docs-website/)
+:::

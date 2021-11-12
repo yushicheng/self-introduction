@@ -17,7 +17,7 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div style={{margin:"10px 0px"}} className={styles.buttons}>
-          <Link style={{marginBottom:"20px"}} className="button button--secondary button--lg" to="/docs/intro">
+          <Link style={{marginBottom:"20px"}} className="button button--secondary button--lg" to="/docs/自我介绍">
             查看详情 ⏱️
           </Link>
         </div>

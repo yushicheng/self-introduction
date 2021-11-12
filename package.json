@@ -6,8 +6,8 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "dev": "docusaurus start",
-    "pdf": "mr-pdf --outputPDFFilename=./static/个人简历.pdf --pdfMargin=20 --excludeSelectors=\"footer\" --paginationSelector=\".pagination-nav__item--next > a\" --initialDocsURL=\"https://yushicheng.github.io/self-introduction/docs/intro/\"",
     "build": "docusaurus build && gh-pages -d build",
+    "export": "mr-pdf --pdfFormat=A2 --outputPDFFilename=./static/个人简历.pdf --pdfMargin=20 --excludeSelectors=\"footer,aside\" --paginationSelector=\".pagination-nav__item--next > a\" --initialDocsURL=\"https://yushicheng.github.io/self-introduction/docs/自我介绍\"",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -18,8 +18,10 @@
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.8",
     "@docusaurus/preset-classic": "2.0.0-beta.8",
+    "@docusaurus/theme-live-codeblock": "2.0.0-beta.8",
     "@mdx-js/react": "^1.6.21",
     "@svgr/webpack": "^5.5.0",
+    "classnames": "^2.3.1",
     "clsx": "^1.1.1",
     "file-loader": "^6.2.0",
     "prism-react-renderer": "^1.2.1",
@@ -41,7 +43,8 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
-    "glob": "^7.1.7",
+    "mdx-mermaid": "^1.1.0",
+    "mermaid": "^8.13.3",
     "mr-pdf": "^0.2.3"
   }
 }

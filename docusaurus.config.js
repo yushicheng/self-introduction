@@ -5,11 +5,11 @@ const darkCodeTheme = require("prism-react-renderer/themes/palenight");
 module.exports = {
   noIndex:true,
   title: "俞士成的职业履历",
-  tagline: "像对待情人一样对待项目,像创造生命一样创造生态",
+  tagline: "学会在生活和工作之间找到平衡",
   onBrokenLinks: "ignore",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenMarkdownLinks: "ignore",
   baseUrl: "/self-introduction/",
-  url: "https://yushicheng.github.io/",
+  url: "https://yushicheng.github.io",
   favicon: "img/favicon.ico",
   organizationName: "facebook", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
@@ -21,9 +21,11 @@ module.exports = {
       darkTheme: darkCodeTheme,
     }
   },
+  themes: ['@docusaurus/theme-live-codeblock'],
   presets: [
     ["@docusaurus/preset-classic",{
       docs: {
+        remarkPlugins: [require("mdx-mermaid")],
         sidebarPath: require.resolve("./configs/sidebars.js"),
         // Please change this to your repo.
         editUrl: "https://github.com/facebook/docusaurus/edit/master/website/",
