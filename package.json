@@ -7,7 +7,7 @@
     "docusaurus": "docusaurus",
     "dev": "docusaurus start",
     "build": "docusaurus build && gh-pages -d build",
-    "export": "mr-pdf --pdfFormat=A2 --outputPDFFilename=./static/个人简历.pdf --pdfMargin=20 --excludeSelectors=\"footer,aside\" --paginationSelector=\".pagination-nav__item--next > a\" --initialDocsURL=\"https://yushicheng.github.io/self-introduction/docs/自我介绍\"",
+    "export": "mr-pdf --pdfFormat=A2 --outputPDFFilename=./static/个人简历.pdf --pdfMargin=20 --excludeSelectors=\"footer,aside\" --paginationSelector=\".pagination-nav__item--next > a\" --initialDocsURL=\"http://localhost:3000/self-introduction/docs/自我介绍\"",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
