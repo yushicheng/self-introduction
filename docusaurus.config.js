@@ -3,9 +3,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/palenight");
 
 /** @type {import("@docusaurus/types").DocusaurusConfig} */
 module.exports = {
-  noIndex:true,
+  noIndex: true,
   title: "俞士成的职业履历",
-  tagline: "学会在生活和工作之间找到平衡",
+  tagline: "拒绝成为一个只懂技术的屌丝!",
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "ignore",
   baseUrl: "/self-introduction/",
@@ -23,7 +23,7 @@ module.exports = {
   },
   themes: ['@docusaurus/theme-live-codeblock'],
   presets: [
-    ["@docusaurus/preset-classic",{
+    ["@docusaurus/preset-classic", {
       docs: {
         remarkPlugins: [require("mdx-mermaid")],
         sidebarPath: require.resolve("./configs/sidebars.js"),
