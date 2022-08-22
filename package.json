@@ -1,12 +1,13 @@
 {
+  "private": true,
+  "version": "1.0.0",
   "name": "self-introduction",
   "description": "基于docusaurus制作的文档网站",
-  "version": "0.0.0",
-  "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
     "dev": "docusaurus start",
-    "build": "docusaurus build && gh-pages -d build",
+    "push:page": "gh-pages -d build",
+    "build:deploy": "docusaurus build && gh-pages -d build",
     "export": "mr-pdf --pdfFormat=A2 --outputPDFFilename=./static/个人简历.pdf --pdfMargin=20 --excludeSelectors=\"footer,aside\" --paginationSelector=\".pagination-nav__item--next > a\" --initialDocsURL=\"http://localhost:3000/self-introduction/docs/自我介绍\"",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
